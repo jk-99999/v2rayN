@@ -6,7 +6,7 @@ OutputPath="$2"
 OutputArch="v2rayN-${Arch}"
 FileName="v2rayN-${Arch}.zip"
 
-wget -nv -O $FileName "https://github.com/jk-99999/v2rayN-core-bin/raw/refs/heads/master/$FileName"
+wget -nv -O $FileName "https://github.com/jk-99999/v2rayN-core-bin/raw/main/$FileName"
 
 ZipPath64="./$OutputArch"
 mkdir $ZipPath64
